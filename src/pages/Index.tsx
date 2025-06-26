@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Bot, Zap, ArrowRight, Sparkles } from "lucide-react";
@@ -51,14 +50,16 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="relative z-10">
-                <Button 
-                  className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white border-0 group/btn transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25"
-                >
-                  <span className="flex items-center justify-center gap-2">
-                    Explore Chatbot
-                    <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                  </span>
-                </Button>
+                <a href="https://your-chatbot-project-link.com" target="_blank" rel="noopener noreferrer" className="block">
+                  <Button 
+                    className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white border-0 group/btn transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25"
+                  >
+                    <span className="flex items-center justify-center gap-2"> 
+                      Explore Chatbot
+                      <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                    </span>
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           </div>
@@ -87,14 +88,16 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="relative z-10">
-                <Button 
-                  className="w-full bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-500 hover:to-purple-400 text-white border-0 group/btn transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25"
-                >
-                  <span className="flex items-center justify-center gap-2">
-                    Discover FRT
-                    <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                  </span>
-                </Button>
+                <a href="https://your-frt-project-link.com" target="_blank" rel="noopener noreferrer" className="block">
+                  <Button 
+                    className="w-full bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-500 hover:to-purple-400 text-white border-0 group/btn transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25"
+                  >
+                    <span className="flex items-center justify-center gap-2">
+                      Discover FRT
+                      <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                    </span>
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           </div>
